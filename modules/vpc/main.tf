@@ -6,7 +6,6 @@ module "vpc" {
 
   enable_vpn_gateway = true
   enable_nat_gateway = true
-  single_nat_gateway = true
 
   tags = {
     Terraform = "true"
